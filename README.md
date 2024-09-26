@@ -25,5 +25,5 @@ $ osascript pop_up.scpt Japanese
 ```
 
 ## In Development
-I'm working on a couple additions that will expand the workspaces to hold a list of applicatiosn that will open, not just Safari. I'm also trying to interface with window snapping applications for Mac to add adidtional (optional) settings. 
+I'm working on a couple additions that will expand the workspaces to hold a list of applications that will open, not just Safari. I'm also trying to interface with window snapping applications for Mac to add adidtional (optional) settings. 
 
