@@ -17,12 +17,25 @@ set studyJapanese to {name:"Japanese", urls:{"https://jisho.org", "https://jlpts
 ``` 
 
 ## How to use the script
-To run the script, place the file in any directory and run `osascript pop_up.scpt <worksapce name>`. You can also make an alias and add it to your /.zshrc or profile of choice so you can run it from anywhere.
+To run the script, place the file in any directory and run `osascript pop_up.scpt <worksapce name>` from that direcory. However, the best way to use this is to define a function in your .zshrc/.bashrc/profile of choice so you can run it from directory.
 
 ```
-// replace jobHunt with the name of the workspace you want to activate
+// option 1.
+// replace jobHunt with the name of the workspace you want to activate. This will only work if you run the command in the directory where pup_up.scpt is.
 $ osascript pop_up.scpt Japanese
+
+// option 2.
+// add this function to your profile of choice to call the script
+popup() {
+	osascript /Users/sophie/Repos/tent/pop_up.scpt "$1"
+}
+
+// to run the script:
+$ popup Japanese
+
 ```
+
+If you want to be able to run the
 
 ## In Development
 I'm working on a couple additions that will expand the workspaces to hold a list of applications that will open, not just Safari. I'm also trying to interface with window snapping applications for Mac to add adidtional (optional) settings. 
