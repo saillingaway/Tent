@@ -38,5 +38,9 @@ $ popup Japanese
 If you want to be able to run the
 
 ## In Development
-I'm working on a couple additions that will expand the workspaces to hold a list of applications that will open, not just Safari. I'm also trying to interface with window snapping applications for Mac to add adidtional (optional) settings. 
+I'm working on a couple additions. In-progress are marked with 🚧, future features are marked with ⏸️.
+- 🚧 add support for creating new workspaces from the command line
+- 🚧 add support for maintaining (creating, editing, removing) workspaces from a file. (v.1 will include only maintaining workspace's name and links)
+- ⏸️ expand the workspaces to hold a list of applications that will open, not just Safari
+- ⏸️ Interface with window snapping applications for Mac to add additional (optional) settings
 
